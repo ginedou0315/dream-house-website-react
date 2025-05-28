@@ -1,3 +1,8 @@
-.grid-content {
+.grid-container {
   text-align: center;
+}
+.grid-content {
+  border-radius: 5px;
+  display: grid;
+  justify-content: space-evenly;
 }

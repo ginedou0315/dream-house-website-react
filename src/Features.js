@@ -38,12 +38,12 @@ export default function Features() {
     <section className="features-section">
       <div className="features-content">
         <h1 className="text-center py-4">House Features</h1>
-        <div data-name="features-grid" className="row gx-5 grid-content">
+        <div data-name="features-grid" className="row gx-5 grid-container">
           {features.map((feature, index) => (
             <div
               key={index}
               data-name="feature-card"
-              className="col-4 p-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow "
+              className="grid-content col-4 p-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow "
             >
               <i className={`${feature.icon} text-4xl text-blue-600 mb-4`}></i>
               <h3
