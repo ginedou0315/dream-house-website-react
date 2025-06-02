@@ -9,10 +9,10 @@ export default function Hero() {
       className="hero-section d-flex align-items-center justify-content-center text-white"
     >
       <div className="text-center">
-        <h1 data-name="hero-title" className="fw-bold mt-5 pt-5 mb-4">
+        <h1 data-name="hero-title" className="fs-1 fw-bold mt-5 pt-5 mb-4">
           Your Dream House Awaits
         </h1>
-        <p data-name="hero-subtitle" className="lead fs-2 mb-3">
+        <p data-name="hero-subtitle" className="lead fs-2 pb-3 mb-3 ">
           Experience luxury living with breathtaking sea views
         </p>
         <a

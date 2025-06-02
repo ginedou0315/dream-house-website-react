@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .hero-section {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -6,4 +7,7 @@
   background-position: center;
   background-attachment: fixed;
   height: 800px;
+}
+.hero-title {
+  font-size: 30px;
 }

@@ -1,15 +1,58 @@
-.navigation-bar {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  opacity: 0.7;
-  position: fixed;
-  width: 100%;
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#navbarNav {
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 151, 19, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar .logo {
+  color: #fff;
+  background: #111;
+  text-decoration: none;
+  font-size: 1.25rem;
   font-weight: bold;
-}
-.navbar-brand {
-  color: bisque;
-  background: black;
   border-radius: 50%;
   padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li + li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  display: block;
+  color: #111;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  transition: background 0.2s;
+}
+
+.nav-links a:hover {
+  background: #555;
+  border-radius: 4px;
+}
+
+/* Optional: simple mobile collapse */
+@media (max-width: 600px) {
+  .nav-links {
+    display: none; /* hide menu on mobile */
+  }
+  /* you could add a .menu-toggle button here and some JS to toggle .nav-links */
 }
