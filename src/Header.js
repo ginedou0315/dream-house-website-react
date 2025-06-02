@@ -9,16 +9,16 @@ export default function Header() {
       </a>
       <ul class="nav-links">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">Features</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Gallery</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Floor Plans</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Amenities</a>
         </li>
       </ul>
     </nav>
